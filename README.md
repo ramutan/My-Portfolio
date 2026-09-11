@@ -19,3 +19,10 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 - Obtain professional certifications to strengthen technical expertise
 - Gain international exposure through travel and cross-cultural experience
 - Build a sustainable and successful career in technology
+
+## Technical Skills
+
+| Category   | Technologies              |
+|------------|----------------------------|
+| Frontend   | HTML5, CSS3, JavaScript    |
+| Programming| Python                     |
