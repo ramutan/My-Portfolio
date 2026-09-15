@@ -43,6 +43,10 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 
 ## Projects
 
+### 1. Financial Tracker
+A lightweight, browser-based personal finance management application that lets users record transactions, monitor their balance, and gain insight into spending habits — built client-side only, with no backend or database.
+
+
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
 
