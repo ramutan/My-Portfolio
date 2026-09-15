@@ -53,6 +53,9 @@ A full-stack web application that digitizes the General Student Personal Informa
     - Admin panel for user management, password resets, and records exports
     - Export to Excel, PDF, CSV, and print-friendly reports
     - Dark/light theme toggle, fully responsive design
+    - Permanent cloud storage via PostgreSQL (Neon) - survives redeploys and restarts
+- **Deployment:** Render (HTTPS) + Neon (cloud database)
+- **Repo:** https://github.com/ramutan/Student-Information-System.git
 
 
 
