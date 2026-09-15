@@ -20,6 +20,12 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 - Gain international exposure through travel and cross-cultural experience
 - Build a sustainable and successful career in technology
 
+## Certifications
+
+-**IT Specialist - HTML and CSS** - Certiport, a Pearson VUE Business (Expires March 14, 2031)
+-**Networking Basics** - Course Certificate, Cisco Networking Academy (August 2026)
+-
+
 ## Technical Skills
 
 | Category   | Technologies              |
