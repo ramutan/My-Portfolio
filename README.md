@@ -52,6 +52,8 @@ A lightweight, browser-based personal finance management application that lets u
     - Real-time balance summary (income, expenses, net total)
     - Running transaction history log
     - Fully Responsive design (desktop & mobile)
+    - No server or database setup required - runs entirely client-side
+- **Repo:** https://github.com/ramutan/Ram-s-Financial-Tracker.git
 
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
