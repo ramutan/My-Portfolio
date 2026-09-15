@@ -49,7 +49,8 @@ A full-stack web application that digitizes the General Student Personal Informa
 - **Tech Stack:** HTML5, CSS3, JavaScript, Node.js, Express, PostgreSQL (Neon), Bcryptjs, jsPDF
 - **Key Features:** 
     - Account system with bcrypt-hashed passwords and server-side sessions
-
+    - 7-section information sheet with live progress tracking
+    - Admin panel for user management, password resets, and records exports
 
 
 
