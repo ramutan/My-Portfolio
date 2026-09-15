@@ -50,6 +50,8 @@ A lightweight, browser-based personal finance management application that lets u
 - **Key Features**
     - Add and log income/expense transactions
     - Real-time balance summary (income, expenses, net total)
+    - Running transaction history log
+    - Fully Responsive design (desktop & mobile)
 
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
