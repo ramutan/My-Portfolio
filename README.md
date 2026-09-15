@@ -51,6 +51,8 @@ A full-stack web application that digitizes the General Student Personal Informa
     - Account system with bcrypt-hashed passwords and server-side sessions
     - 7-section information sheet with live progress tracking
     - Admin panel for user management, password resets, and records exports
+    - Export to Excel, PDF, CSV, and print-friendly reports
+    - Dark/light theme toggle, fully responsive design
 
 
 
