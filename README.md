@@ -22,10 +22,16 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 
 ## Certifications
 
--**IT Specialist - HTML and CSS** - Certiport, a Pearson VUE Business (Expires March 14, 2031)
--**Networking Basics** - Course Certificate, Cisco Networking Academy (August 2026)
--
+- **IT Specialist - HTML and CSS** — Certiport, a Pearson VUE business (Expires March 14, 2031)
+- **Networking Basics** — Course Certificate, Cisco Networking Academy (Aug 2026)
+- **HTML Essentials** — Course Certificate, Cisco Networking Academy (Aug 2026)
+- **Python Essentials 1** — Course Certificate, Cisco Networking Academy (Aug 2026)
+- **Getting Started with Cisco Packet Tracer** — Certificate, Cisco Networking Academy (Jul 2026)
 
+*Completed 14+ modules covering networking fundamentals, Python programming, and Cisco Packet Tracer through Cisco Networking Academy.*
+
+ [View all badges on Credly](https://www.credly.com/users/prince-ram.345c4fe8)
+ 
 ## Technical Skills
 
 | Category   | Technologies              |
