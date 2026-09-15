@@ -46,7 +46,9 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
 
-- **Tech Stack:** HTML5, CSS3, JavaScript, Node.js, Express, PostgreSQL (Neon), Bcr
+- **Tech Stack:** HTML5, CSS3, JavaScript, Node.js, Express, PostgreSQL (Neon), Bcryptjs, jsPDF
+- **Key Features:** 
+    - Account system with bcrypt-hashed passwords and server-side sessions
 
 
 
