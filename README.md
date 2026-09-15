@@ -31,10 +31,12 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 *Completed 14+ modules covering networking fundamentals, Python programming, and Cisco Packet Tracer through Cisco Networking Academy.*
 
  [View all badges on Credly](https://www.credly.com/users/prince-ram.345c4fe8)
- 
+
 ## Technical Skills
 
-| Category   | Technologies              |
-|------------|----------------------------|
-| Frontend   | HTML5, CSS3, JavaScript    |
-| Programming| Python                     |
+| Category    | Technologies                                    |
+|--------------|--------------------------------------------------|
+| Frontend     | HTML5, CSS3, JavaScript                          |
+| Programming  | Python                                           |
+| Networking   | TCP/IP, Network Protocols, Cisco Packet Tracer   |
+| Tools        | Git, GitHub                                      |
