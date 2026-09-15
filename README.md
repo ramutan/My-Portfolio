@@ -44,3 +44,5 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 ## Connect with Me
 
 - Github: https://github.com/ramutan
+- LinkedIn: https://www.linkedin.com/in/ramutan/
+- Email: princeram2305@gmail.com
