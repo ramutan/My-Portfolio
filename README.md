@@ -62,6 +62,7 @@ An interactive educational web platform that guides learners through core data s
 - **Key Feautures:**
     - Structured breakdown of linear and non-linear data structures
     - Explains why data structures matter (effiency, problem solving, interview prep)
+    - Clean, content-focused educational layout
 
 
 
