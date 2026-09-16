@@ -55,7 +55,10 @@ A lightweight, browser-based personal finance management application that lets u
     - No server or database setup required - runs entirely client-side
 - **Repo:** https://github.com/ramutan/Ram-s-Financial-Tracker.git
 
-### 2. Data Structures: Education Webpage 
+### 2. Data Structures: Education Webpage Learning Hub
+
+
+
 
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
