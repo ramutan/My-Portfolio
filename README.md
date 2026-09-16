@@ -56,6 +56,10 @@ A lightweight, browser-based personal finance management application that lets u
 - **Repo:** https://github.com/ramutan/Ram-s-Financial-Tracker.git
 
 ### 2. Data Structures: Education Webpage Learning Hub
+An interactive educational web platform that guides learners through core data structure concepts — from linear structures (arrays, linked lists, stacks, queues) to non-linear structures (trees, graphs, hash tables).
+
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Key Feautures:**
 
 
 
