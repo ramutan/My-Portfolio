@@ -63,9 +63,7 @@ An interactive educational web platform that guides learners through core data s
     - Structured breakdown of linear and non-linear data structures
     - Explains why data structures matter (effiency, problem solving, interview prep)
     - Clean, content-focused educational layout
-
-
-
+- **Repo:** https://github.com/ramutan/Data-Structures.git
 
 ### 3. Student Information System
 A full-stack web application that digitizes the General Student Personal Information Sheet (GSPIS) — covering personal data, residence, physical description, family background, educational background, qualifications, and references.
@@ -80,10 +78,6 @@ A full-stack web application that digitizes the General Student Personal Informa
     - Permanent cloud storage via PostgreSQL (Neon) - survives redeploys and restarts
 - **Deployment:** Render (HTTPS) + Neon (cloud database)
 - **Repo:** https://github.com/ramutan/Student-Information-System.git
-
-
-
-
 
 ## Connect with Me
 
