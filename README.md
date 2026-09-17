@@ -45,6 +45,7 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 | Document Generation     | jsPDF, AutoTable, Excel/CSV export                      |
 | Tools & Environment     | Git, GitHub, dotenv (environment config)                |
 | Deployment              | Render, cloud database hosting                          |
+| Authentication & Security | bcrypt (password hashing), express-session            |
 
 ## Projects
 
