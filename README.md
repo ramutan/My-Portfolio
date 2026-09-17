@@ -17,11 +17,12 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 **Bachelor of Science in Information Technology — Game Development**
 University of Perpetual Help System Dalta - Molino Campus
 *2nd Year*
-2025 - 2029
+2025 - 2029 
 
 **Senior High School — Science, Technology, Engineering, and Mathematics (STEM) Strand**
 National University - Dasmariñas
 *Grade 11–12*
+2023 - 2025
 
 ## Objectives
 
