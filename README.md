@@ -42,7 +42,7 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 | Networking   | TCP/IP, Network Protocols, Cisco Packet Tracer   |
 | Tools        | Git, GitHub                                      |
 | API Development        | REST API design, fetch (client-server communication)   |
-
+| Document Generation     | jsPDF, AutoTable, Excel/CSV export                      |
 ## Projects
 
 ### 1. Financial Tracker
