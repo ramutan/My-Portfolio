@@ -38,6 +38,7 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 |--------------|--------------------------------------------------|
 | Frontend     | HTML5, CSS3, JavaScript                          |
 | Programming  | Python                                           |
+| Database               | PostgreSQL (Neon)                                     
 | Networking   | TCP/IP, Network Protocols, Cisco Packet Tracer   |
 | Tools        | Git, GitHub                                      |
 
