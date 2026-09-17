@@ -44,6 +44,8 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 | API Development        | REST API design, fetch (client-server communication)   |
 | Document Generation     | jsPDF, AutoTable, Excel/CSV export                      |
 | Tools & Environment     | Git, GitHub, dotenv (environment config)                |
+| Deployment              | Render, cloud database hosting                          |
+
 ## Projects
 
 ### 1. Financial Tracker
