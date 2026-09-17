@@ -41,6 +41,7 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 | Database               | PostgreSQL (Neon)                                     
 | Networking   | TCP/IP, Network Protocols, Cisco Packet Tracer   |
 | Tools        | Git, GitHub                                      |
+| API Development        | REST API design, fetch (client-server communication)   |
 
 ## Projects
 
