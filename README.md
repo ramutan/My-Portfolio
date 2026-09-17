@@ -1,6 +1,6 @@
 # My-Portfolio
 
-# Prince Ram Roydlikent F. Igna
+Prince Ram Roydlikent F. Igna
 
 **BSIT - Game Development Student | University of Perpetual Help System Dalta - Molino Campus**
 
