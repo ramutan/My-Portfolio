@@ -12,6 +12,12 @@ I'm eager to grow in the tech industry and keep expanding what I know about soft
 
 I'm still in the process of building my skills, so I try to stay curious and open to new tools and languages along the way. I also want to understand more about how the tech industry works in general — not just coding, but how projects get built and how people work together to make them happen.
 
+## Education
+
+**Bachelor of Science in Information Technology — Game Development**
+University of Perpetual Help System Dalta - Molino Campus
+*2nd Year*
+
 ## Objectives
 
 - Complete my undergraduate degree in Information Technology (Game Development)
