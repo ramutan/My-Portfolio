@@ -34,18 +34,17 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 
 ## Technical Skills
 
-| Category    | Technologies                                    |
-|--------------|--------------------------------------------------|
-| Frontend     | HTML5, CSS3, JavaScript                          |
-| Programming  | Python                                           |
-| Database               | PostgreSQL (Neon)                                     
-| Networking   | TCP/IP, Network Protocols, Cisco Packet Tracer   |
-| Tools        | Git, GitHub                                      |
+| Category              | Technologies                                          |
+|------------------------|--------------------------------------------------------|
+| Frontend               | HTML5, CSS3, JavaScript                                |
+| Backend                | Node.js, Express.js                                    |
+| Database               | PostgreSQL (Neon)                                       |
+| Authentication & Security | bcrypt (password hashing), express-session            |
 | API Development        | REST API design, fetch (client-server communication)   |
 | Document Generation     | jsPDF, AutoTable, Excel/CSV export                      |
+| Networking              | TCP/IP, Network Protocols, Cisco Packet Tracer          |
 | Tools & Environment     | Git, GitHub, dotenv (environment config)                |
 | Deployment              | Render, cloud database hosting                          |
-| Authentication & Security | bcrypt (password hashing), express-session            |
 
 ## Projects
 
