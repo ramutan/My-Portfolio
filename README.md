@@ -27,6 +27,7 @@ National University - Dasmariñas
 ## Languages
 
 - Filipino (Native)
+- English
 
 
 ## Objectives
