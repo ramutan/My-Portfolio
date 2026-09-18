@@ -24,6 +24,11 @@ National University - Dasmariñas
 *Grade 11–12*
 2023 - 2025
 
+## Languages
+
+- Filipino (Native)
+
+
 ## Objectives
 
 - Complete my undergraduate degree in Information Technology (Game Development)
