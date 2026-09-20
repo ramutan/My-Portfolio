@@ -29,7 +29,6 @@ National University - Dasmariñas
 - Filipino (Native)
 - English
 
-
 ## Objectives
 
 - Complete my undergraduate degree in Information Technology (Game Development)
