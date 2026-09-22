@@ -16,7 +16,7 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 
 - Playing instruments
 - Learning something new
-- 
+- Coding
 
 
 ## Education
