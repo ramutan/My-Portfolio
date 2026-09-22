@@ -15,6 +15,9 @@ I'm still in the process of building my skills, so I try to stay curious and ope
 ## Hobbies
 
 - Playing instruments
+- Learning something new
+- 
+
 
 ## Education
 
