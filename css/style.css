@@ -87,6 +87,13 @@ footer { border-top: 2px solid var(--ink); padding: 1.5rem 0 2.5rem; background:
 footer p { margin: 0; color: var(--muted); }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
+nav a[aria-current="page"] { color: var(--blue); box-shadow: 0 3px 0 var(--tile); }
+header.small { padding: 3rem 0 2rem; }
+header.small h1 { font-size: clamp(2rem, 6vw, 3.4rem); max-width: none; margin: 0; }
+button { font: 600 1rem var(--body); color: #16213a; background: var(--tile); border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); padding: .5rem 1.1rem; cursor: pointer; }
+button:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+button:active { box-shadow: none; transform: translate(4px, 4px); }
+ 
 
 
 
