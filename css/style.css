@@ -12,5 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        
+                    --paper: #111827;
+        --ink: #eef1f8;
+
 
