@@ -43,5 +43,12 @@ a:focus-visible { outline: 3px solid var(--tile); outline-offset: 3px; }
 
 .wrap { max-width: 900px; margin: 0 auto; padding: 0 1.25rem; }
 
+nav { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 2px solid var(--ink); }
+
+nav .wrap { display: flex; gap: 1.25rem; overflow-x: auto; padding-top: .7rem; padding-bottom: .7rem; }
+
+nav a { color: var(--ink); text-decoration: none; font-weight: 600; white-space: nowrap; }
+
+nav a:hover { color: var(--blue); }
 
 
