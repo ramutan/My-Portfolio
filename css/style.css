@@ -9,3 +9,8 @@
     --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
     --body: "Figtree", "Segoe UI", Arial, sans-serif;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        
+
