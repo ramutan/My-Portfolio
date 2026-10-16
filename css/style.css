@@ -24,4 +24,8 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+body {
+    margin: 0;
+    font: 400 1.05rem/1.65 var(--body);
+
 
