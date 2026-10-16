@@ -79,6 +79,11 @@ th, td { text-align: left; padding: .7rem 1rem; border-bottom: 1px solid var(--l
 th { width: 34%; font-weight: 600; }
 tr:last-child th, tr:last-child td { border-bottom: 0; }
 
+.project { background: var(--card); border: 2px solid var(--ink); border-left: 10px solid var(--blue); padding: 1.5rem; margin-bottom: 1.5rem; }
+.project .stack { color: var(--muted); font-size: .95rem; }
+.project h4 { margin: 1rem 0 .4rem; font: 700 1rem var(--body); }
+
+
 
 
 
