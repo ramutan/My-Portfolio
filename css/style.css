@@ -54,4 +54,11 @@ h1 { font: 800 clamp(2.6rem, 9vw, 5.4rem)/.98 var(--display); letter-spacing: -.
 header .school { margin: 0 0 .25rem; color: var(--muted); }
 header .mail { font-weight: 600; }
 
+section { padding: 2.75rem 0; border-top: 2px solid var(--ink); background: var(--paper); }
+h2 { font: 700 clamp(1.7rem, 4vw, 2.3rem)/1.1 var(--display); letter-spacing: -.02em; margin: 0 0 1.25rem; }
+h3 { font: 700 1.3rem/1.2 var(--display); margin: 0 0 .5rem; }
+p { max-width: 68ch; margin: 0 0 1rem; }
+ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+li { margin-bottom: .35rem; }
+
 
