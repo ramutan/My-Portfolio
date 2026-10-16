@@ -66,5 +66,10 @@ li { margin-bottom: .35rem; }
 .tags { display: flex; flex-wrap: wrap; gap: .6rem; list-style: none; padding: 0; }
 .tags li { border: 2px solid var(--ink); background: var(--card); padding: .2rem .9rem; margin: 0; }
 
+.entry { background: var(--card); border: 2px solid var(--ink); padding: 1.25rem; margin-bottom: 1rem; }
+.entry p { margin-bottom: .25rem; }
+.entry .when { color: var(--muted); }
+
+
 
 
