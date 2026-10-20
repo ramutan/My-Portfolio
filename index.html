@@ -19,8 +19,8 @@
                     if (stored === "light" || stored === "dark") {
                         document.documentElement.setAttribute("data-theme", stored);
                     }
-                }
-            }
+                } catch (e) {}
+            })();
         </script>
     </head>
 
