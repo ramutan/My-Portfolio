@@ -6,3 +6,14 @@
         <title>Skills — Prince Ram Igna</title>
         <meta name="author" content="Prince Ram Roydlikent F. Igna">
         <meta name="description" content="Technical skill stack of Prince Ram Roydlikent F. Igna.">
+
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem("portfolio-theme");
+                    if (stored === "light" || stored === "dark") {
+                        document.documentElement.setAttribute("data-theme", stored);
+                    }
+                } catch (e) {}
+            })();
+        </script>
