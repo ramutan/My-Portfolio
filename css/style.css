@@ -13,3 +13,14 @@
     --accent-soft:  #DBE4FF;
     --accent-ink:   #1E40AF;
     --code-bg:      #EFEEE5;
+
+    /* Typography */
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --body:    "Inter", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+    /* Layout */
+    --sidebar-w: 240px;
+    --radius: 12px;
+    --radius-sm: 5px;
+}
