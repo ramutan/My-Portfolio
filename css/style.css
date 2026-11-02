@@ -1,0 +1,15 @@
+/* ---------- Theme tokens ---------- */
+:root {
+    /* Light theme (default) */
+    --bg:           #FAFAF6;
+    --bg-elevated:  #FFFFFF;
+    --bg-muted:     #F1F0E8;
+    --text:         #1A1A1A;
+    --text-muted:   #5E5E58;
+    --text-faint:   #A0A098;
+    --border:       #E6E4DA;
+    --border-strong:#CFCDC0;
+    --accent:       #2563EB;
+    --accent-soft:  #DBE4FF;
+    --accent-ink:   #1E40AF;
+    --code-bg:      #EFEEE5;
