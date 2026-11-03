@@ -46,3 +46,12 @@
             toggleTheme();
         }
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        /* ---------- Theme toggle button ---------- */
+        const toggle = document.querySelector(".theme-toggle");
+        if (toggle) {
+            toggle.addEventListener("click", toggleTheme);
+            toggle.setAttribute("aria-label",
+                currentTheme() === "dark" ? "Switch to light theme" : "Switch to dark theme");
+        }
