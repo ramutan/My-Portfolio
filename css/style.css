@@ -553,4 +553,45 @@ footer p {
     font-family: var(--mono);
 }
 
+/* ---------- Theme toggle ---------- */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--text);
+    transition: background-color .2s ease, border-color .2s ease;
+    flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+    background: var(--bg-muted);
+    border-color: var(--border-strong);
+}
+
+.theme-toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.theme-toggle svg { width: 17px; height: 17px; }
+
+.theme-toggle .icon-sun  { display: none; }
+
+.theme-toggle .icon-moon { display: block; }
+
+:root[data-theme="dark"]    .theme-toggle .icon-sun  { display: block; }
+
+:root[data-theme="dark"]    .theme-toggle .icon-moon { display: none; }
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle .icon-sun  { display: block; }
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .theme-toggle .icon-moon { display: none; }
+}
 
