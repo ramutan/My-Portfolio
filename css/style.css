@@ -167,3 +167,12 @@ body {
     align-items: center;
     gap: .45rem;
 }
+
+.sidebar-kbd kbd {
+    font: 500 .68rem var(--mono);
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: .14rem .38rem;
+    color: var(--text-muted);
+}
