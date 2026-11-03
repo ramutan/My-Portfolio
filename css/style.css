@@ -274,4 +274,13 @@ h3 {
     gap: .4rem;
 }
 
+h3:first-of-type { margin-top: .5rem; }
+
+h3::before {
+    content: "###";
+    font: 500 .8rem var(--mono);
+    color: var(--text-faint);
+    letter-spacing: 0;
+    flex-shrink: 0;
+}
  
