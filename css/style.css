@@ -300,7 +300,7 @@ p {
 
 p.lead, p.muted { color: var(--text-muted); }
 
-/* ---------- Links ---------- */
+/* ---------- Lists ---------- */
 ul, ol {
     padding-left: 1.4rem;
     margin: 0 0 1.5rem;
@@ -316,3 +316,4 @@ li::marker { color: var(--text-faint); }
 
 li strong {color: var(--text);}
  
+/* ---------- Links ---------- */
