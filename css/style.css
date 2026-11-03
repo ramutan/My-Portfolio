@@ -109,3 +109,9 @@ body {
     text-decoration: none;
     letter-spacing: -.01em;
 }
+
+.sidebar-brand:hover { color: var(--accent); }
+
+.sidebar-brand .at {
+    font: 500 .85rem var(--mono);
+}
