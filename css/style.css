@@ -58,3 +58,6 @@
         --code-bg:      #1B1B1D;
     }
 }
+
+/* ---------- Reset / Base Styles ---------- */
+*, *::before, *::after {box-sizing: border-box;}
