@@ -78,3 +78,10 @@ body {
 }
 
 ::selection { background: var(--accent-soft); color: var(--text); }
+
+ /* ---------- Layout ---------- */
+ body {
+    display:flex;
+    min-height: 100vh;
+ }
+
