@@ -76,3 +76,5 @@ body {
     -moz-osx-font-smoothing: grayscale;
     transition: background .25s ease, color 0.25s ease;
 }
+
+::selection { background: var(--accent-soft); color: var(--text); }
