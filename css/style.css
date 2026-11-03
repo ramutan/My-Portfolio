@@ -452,3 +452,33 @@ code, kbd, .mono {
     padding: 0;
     list-style: none;
 }
+
+@media (max-width: 1150px) {
+    .gear-grid { grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (max-width: 620px) {
+    .gear-grid {grid-template-columns: 1fr; }
+}
+
+.gear-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: var(--radius);
+}
+
+.gear-card:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+.gear-card .gear-img {
+    aspect-ratio: 1 / 1;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
+    margin: 0 0 .8rem;
+}
+
