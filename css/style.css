@@ -510,7 +510,35 @@ code, kbd, .mono {
 }
 
 /* ---------- Buttons ---------- */
+button.btn {
+    font: 500 .9rem var(--body);
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border-strong);
+    padding: .5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+}
 
+button.btn:hover {
+    background: var(--bg-muted);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+button.btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+#copy-status {
+    margin-top: .75rem;
+    font-size: .85rem;
+    color: var(--text-muted);
+    font-family: var(--mono);
+    min-height: 1.2rem;
+}
 
 
 
