@@ -205,3 +205,10 @@ header .hello {
     color: var(--text-faint);
     margin: 0 0 .75rem;
 }
+
+header h1 {
+    font: 700 clamp(2rem, 6vw, 3.2rem)/1.05 var(--display);
+    letter-spacing: -.022em;
+    margin: 0 0 1.25rem;
+    color: var(--text);
+}
