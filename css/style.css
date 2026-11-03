@@ -161,3 +161,9 @@ body {
 }
 
 .sidebar-email:hover { color: var(--accent); }
+
+.sidebar-kbd {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+}
