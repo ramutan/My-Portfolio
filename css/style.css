@@ -40,3 +40,21 @@
     --accent-ink:   #B4C8FF;
     --code-bg:      #1B1B1D;
 }
+
+/* Dark theme for users with dark mode preference */
+@media (prefers-color-scheme:dark) {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) {
+        --bg:           #0B0B0C;
+        --bg-elevated:  #151516;
+        --bg-muted:     #1B1B1D;
+        --text:         #F4F4F0;
+        --text-muted:   #9B9BA0;
+        --text-faint:   #5E5E63;
+        --border:       #262628;
+        --border-strong:#38383B;
+        --accent:       #8FB4FF;
+        --accent-soft:  #1B2540;
+        --accent-ink:   #B4C8FF;
+        --code-bg:      #1B1B1D;
+    }
+}
