@@ -181,3 +181,16 @@ body {
     font-size: .72rem;
     color: var(--text-faint);
 }
+
+/* ---------- Main content ---------- */
+.main {
+    flex: 1;
+    min-width: 0;
+    padding: 0 3rem 0 3.5rem;
+}
+
+.main .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0;
+}
