@@ -317,3 +317,11 @@ li::marker { color: var(--text-faint); }
 li strong {color: var(--text);}
  
 /* ---------- Links ---------- */
+a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color .2s ease, color .2s ease;
+}
