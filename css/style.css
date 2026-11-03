@@ -433,3 +433,22 @@ code, kbd, .mono {
     align-items: center;
     gap: .6rem;
 }
+
+.gear-category::before {
+    content: "##";
+    font: 500 .8rem var(--mono);
+    color: var(--text-faint);
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.gear-category:first-of-type { margin-top: .5rem; }
+
+.gear-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem 1.5rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+}
