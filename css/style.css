@@ -151,3 +151,11 @@ body {
     flex-direction: column;
     gap: .9rem;
 }
+
+.sidebar-email {
+    font: 400 .8rem var(--mono);
+    color: var(--text-faint);
+    text-decoration: none;
+    word-break: break-all;
+    transition: color .18s ease;
+}
