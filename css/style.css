@@ -311,4 +311,8 @@ li {
     color: var(--text);
     line-height: 1.65;
 }
+
+li::marker { color: var(--text-faint); }
+
+li strong {color: var(--text);}
  
