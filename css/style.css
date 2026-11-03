@@ -135,3 +135,9 @@ body {
     gap: .5rem;
     transition: color .18s ease;
 }
+
+.sidebar-nav a .n {
+    font: 400 .72rem var(--mono);
+    color: var(--text-faint);
+    min-width: 1.1rem;
+}
