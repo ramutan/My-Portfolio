@@ -100,3 +100,12 @@ body {
     background: var(--bg);
     z-index: 40;
 }
+
+.sidebar-top { display: flex; flex-direction: column; gap: 2rem; }
+
+.sidebar-brand {
+    font: 700 1.1rem var(--display);
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: -.01em;
+}
