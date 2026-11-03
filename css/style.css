@@ -383,9 +383,20 @@ code, kbd, .mono {
 
 /* ----------Certifications ---------- */
 .certs { list-style: none; padding: 0; margin: 0;}
+
 .certs li {
     padding: .9rem 0;
     border-bottom: 1px dashed var(--border);
     margin: 0;
     color: var(--text);
+}
+
+.certs li:first-child { border-top: 1px dashed var(--border); }
+
+.certs li strong { display: block; margin-bottom: 2rem; }
+
+.certs li span {
+    color: var(--text-faint);
+    font-size: .85rem;
+    fontr-family: var(--mono);
 }
