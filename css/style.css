@@ -176,3 +176,8 @@ body {
     padding: .14rem .38rem;
     color: var(--text-muted);
 }
+
+.sidebar-kbd span {
+    font-size: .72rem;
+    color: var(--text-faint);
+}
