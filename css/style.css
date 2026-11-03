@@ -297,4 +297,18 @@ p {
     margin: 0 0 1.2rem;
     color: var(--text);
 }
+
+p.lead, p.muted { color: var(--text-muted); }
+
+/* ---------- Links ---------- */
+ul, ol {
+    padding-left: 1.4rem;
+    margin: 0 0 1.5rem;
+}
+
+li {
+    margin-bottom: .5rem;
+    color: var(--text);
+    line-height: 1.65;
+}
  
