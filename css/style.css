@@ -283,4 +283,12 @@ h3::before {
     letter-spacing: 0;
     flex-shrink: 0;
 }
+
+h4 {
+    font: 600 .8rem var(--body);
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: var(--text-faint);
+    margin: 1.5rem 0 .5rem;
+}
  
