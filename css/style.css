@@ -422,3 +422,14 @@ code, kbd, .mono {
 
 .project ul li { font-size: .95rem; color: var(--text-muted); }
 
+/* ---------- Peripherals ---------- */
+.gear-category {
+    font: 600 .8rem var(--body);
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: var(--text-faint);
+    margin: 2.75rem 0 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
