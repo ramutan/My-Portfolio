@@ -365,3 +365,18 @@ code, kbd, .mono {
     border-radius: 4px;
     margin: 0;
 }
+
+/* ---------- Education  ---------- */
+.entry {
+    margin: 0 0 2rem;
+    padding: 0;
+}
+
+.entry p { margin: 0 0 .3rem; color: var(--text); }
+
+.entry .when {
+    color: var(--text-faint);
+    font-size: .85rem;
+    font-family: var(--mono);
+    margin: 0;
+}
