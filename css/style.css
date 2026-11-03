@@ -345,3 +345,23 @@ code, kbd, .mono {
     border-radius: 1px solid var(--border);
     color: var(--text);
 }
+
+/* ---------- Inline tech tags ---------- */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    list-style: none;
+    padding: 0;
+    margin: .25rem 0 1.5rem;
+}
+
+.tags li {
+    font: 500 .8rem var(--mono);
+    color: var(--text);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    padding: .2rem .55rem;
+    border-radius: 4px;
+    margin: 0;
+}
