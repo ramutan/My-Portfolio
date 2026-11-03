@@ -540,5 +540,17 @@ button.btn:focus-visible {
     min-height: 1.2rem;
 }
 
+/* ---------- Footer ---------- */
+footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0 3rem;
+}
+
+footer p {
+    margin: 0;
+    color: var(--text-faint);
+    font-size: .85rem;
+    font-family: var(--mono);
+}
 
 
