@@ -398,5 +398,27 @@ code, kbd, .mono {
 .certs li span {
     color: var(--text-faint);
     font-size: .85rem;
-    fontr-family: var(--mono);
+    font-family: var(--mono);
 }
+
+/* ---------- Projects ---------- */
+.project {
+    margin: 0 0 3rem;
+    padding: 0;
+}
+
+.project:last-child { margin-bottom: 0; }
+
+.project h3 { margin-top: 0; }
+
+.project .stack {
+    color: var(--text-faint);
+    font-size: .85rem;
+    font-family: var(--mono);
+    margin: .3rem 0 1rem;
+}
+
+.project ul { margin: .5rem 0 1rem; }
+
+.project ul li { font-size: .95rem; color: var(--text-muted); }
+
