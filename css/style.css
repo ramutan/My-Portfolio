@@ -117,3 +117,9 @@ body {
     color: var (--text-faint);
     margin-right: .3rem;
 }
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
