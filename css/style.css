@@ -256,4 +256,13 @@ h2 {
     gap: .5rem;
 }
 
+h2::before {
+    content: "##";
+    font: 500 .85rem var(--mono);
+    color: var(--text-faint);
+    letter-spacing: 0;
+    margin-right: .1rem;
+    flex-shrink: 0;
+}
+
  
