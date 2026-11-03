@@ -494,6 +494,23 @@ code, kbd, .mono {
 
 .gear-card:hover .gear-img { border-color: var(--border-strong);}
 
+.gear-card h3 {
+    font: 600 .95rem/1.35 var(--body);
+    color: var(--text);
+    margin: 0;
+    display: block;
+}
+
+.gear-card h3::before { content: none; }
+
+.gear-card .gear-spec {
+    font: 400 .85rem/1.5 var(--body);
+    color: var(--text-muted);
+    margin: .2rem 0 0;
+}
+
+/* ---------- Buttons ---------- */
+
 
 
 
