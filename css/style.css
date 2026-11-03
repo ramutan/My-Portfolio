@@ -194,3 +194,14 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+
+/* ---------- Hero (home) ---------- */
+header {
+    padding: 4.5rem 0 3.5rem;
+}
+
+header .hello {
+    font: 500 .85rem var(--mono);
+    color: var(--text-faint);
+    margin: 0 0 .75rem;
+}
