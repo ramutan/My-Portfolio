@@ -141,3 +141,7 @@ body {
     color: var(--text-faint);
     min-width: 1.1rem;
 }
+
+.sidebar-nav a:hover { color: var(--text); }
+.sidebar-nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+.sidebar-nav a[aria-current="page"] .n {color: var(--accent);}
