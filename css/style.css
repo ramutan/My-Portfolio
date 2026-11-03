@@ -159,3 +159,5 @@ body {
     word-break: break-all;
     transition: color .18s ease;
 }
+
+.sidebar-email:hover { color: var(--accent); }
