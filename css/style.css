@@ -145,3 +145,9 @@ body {
 .sidebar-nav a:hover { color: var(--text); }
 .sidebar-nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
 .sidebar-nav a[aria-current="page"] .n {color: var(--accent);}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
