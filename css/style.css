@@ -235,4 +235,10 @@ header.small h1 {
 
 header.small .meta { margin-top: .4rem; }
 
+/* ---------- Sections ---------- */
+section {
+    padding: 2.75rem 0 3.25rem;
+    border-top: 1px solid var(--border);
+}
+
  
