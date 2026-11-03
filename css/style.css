@@ -114,4 +114,6 @@ body {
 
 .sidebar-brand .at {
     font: 500 .85rem var(--mono);
+    color: var (--text-faint);
+    margin-right: .3rem;
 }
