@@ -17,5 +17,32 @@
         return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
     }
 
+    function applyTheme(theme) {
+        document.documentElement.setAttribute("data-theme", theme);
+        const btn = document.querySelector(".theme-toggle");
+        if (btn) {
+            btn.setAttribute("aria-label",
+                theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
+        }
+    }
 
-})
+    function toggleTheme() {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        applyTheme(next);
+        storeTheme(next);
+    }
+
+    // React to system preference change IF the user hasn't manually chosen
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        if (!getStoredTheme()) {
+            applyTheme(e.matches ? "dark" : "light");
+        }
+    });
+
+    // Alt+K / Alt+J keyboard shortcut to toggle theme (Bryl-style)
+    document.addEventListener("keydown", (e) => {
+        if (e.altKey && (e.key === "k" || e.key === "K" || e.key === "j" || e.key === "J")) {
+            e.preventDefault();
+            toggleTheme();
+        }
+    });
