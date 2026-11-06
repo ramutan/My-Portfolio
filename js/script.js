@@ -82,3 +82,14 @@
                         status.textContent = "copied to clipboard";
                         status.style.color = "var(--accent)";
                     }
+
+                     } catch (err) {
+                    if (status) {
+                        status.textContent = "couldn't copy — select the address above";
+                    }
+                }
+                setTimeout(() => { if (status) status.textContent = ""; }, 3500);
+            });
+        }
+    });
+})();
