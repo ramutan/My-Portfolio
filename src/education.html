@@ -14,77 +14,76 @@
                     if (stored === "light" || stored === "dark") {
                         document.documentElement.setAttribute("data-theme", stored);
                     }
-                    } catch (e) {}
-                })();
+                } catch (e) {}
+            })();
         </script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
 
-       <aside class="sidebar">
-        <div class="sidebar-top">
-            <a href="index.html" class="sidebar-brand"><span class="at">//</span>Prince Ram</a>
-            <nav class="sidebar-nav" aria-label="Primary">
-                <a href="index.html"><span class="n">01</span>Profile</a>
-                <a href="education.html"><span class="n">02</span>Education</a>
-                <a href="certifications.html"><span class="n">03</span>Certifications</a>
-                <a href="skills.html"><span class="n">04</span>Skills</a>
-                <a href="projects.html"><span class="n">05</span>Projects</a>
-                <a href="peripherals.html"><span class="n">06</span>Peripherals</a>
-                <a href="connect.html"><span class="n">07</span>Connect</a>
-            </nav>
-        </div>
-
-        <div class="sidebar-bottom">
-            <a class="sidebar-email" href="mailto:princeram2305@gmail.com">princeram2305@gmail.com</a>
-            <div class="sidebar-kbd">
-            <button class="theme-toggle" type="button" aria-label="Switch theme">
-                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="12" cy="12" r="4"></circle>
-                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
-                </svg>
-            </button>
-                <kbd>alt</kbd><kbd>K</kbd><span>theme</span>
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <a href="../index.html" class="sidebar-brand"><span class="at">//</span>Prince Ram</a>
+                <nav class="sidebar-nav" aria-label="Primary">
+                    <a href="../index.html"><span class="n">01</span>Profile</a>
+                    <a href="education.html"><span class="n">02</span>Education</a>
+                    <a href="certifications.html"><span class="n">03</span>Certifications</a>
+                    <a href="skills.html"><span class="n">04</span>Skills</a>
+                    <a href="projects.html"><span class="n">05</span>Projects</a>
+                    <a href="peripherals.html"><span class="n">06</span>Peripherals</a>
+                    <a href="connect.html"><span class="n">07</span>Connect</a>
+                </nav>
             </div>
-        </div>
-       </aside>
 
-       <main class="main">
-        <div class="wrap">
-            <header class="small">
-                <p class="hello">// education</p>
-                <h1>Education</h1>
-                <p class="meta">Where I've been studying.</p>
-            </header>
-
-            <section>
-                <div class="entry">
-                    <h3>Bachelor of Science in Information Technology — Game Development</h3>
-                    <p>University of Perpetual Help System Dalta — Molino Campus</p>
-                    <p class="when">2nd Year · 2025 – 2029 (present)</p>
+            <div class="sidebar-bottom">
+                <a class="sidebar-email" href="mailto:princeram2305@gmail.com">princeram2305@gmail.com</a>
+                <div class="sidebar-kbd">
+                <button class="theme-toggle" type="button" aria-label="Switch theme">
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+                    </svg>
+                </button>
+                    <kbd>alt</kbd><kbd>K</kbd><span>theme</span>
                 </div>
+            </div>
+        </aside>
 
-                <div class="entry">
-                    <h3>Senior High School — STEM Strand</h3>
-                    <p>National University — Dasmariñas</p>
-                    <p class="when">Grade 11–12 · 2023 – 2025</p>
-                </div>
-            </section>
+        <main class="main">
+            <div class="wrap">
+                <header class="small">
+                    <p class="hello">// education</p>
+                    <h1>Education</h1>
+                    <p class="meta">Where I've been studying.</p>
+                </header>
 
-            <footer>
-                <p>// &copy; <span id="year">2026</span> Prince Ram Roydlikent F. Igna</p>
-            </footer>
-        </div>
-    </main>
+                <section>
+                    <div class="entry">
+                        <h3>Bachelor of Science in Information Technology — Game Development</h3>
+                        <p>University of Perpetual Help System Dalta — Molino Campus</p>
+                        <p class="when">2nd Year · 2025 – 2029 (present)</p>
+                    </div>
 
-    <script src="js/script.js"></script>
+                    <div class="entry">
+                        <h3>Senior High School — STEM Strand</h3>
+                        <p>National University — Dasmariñas</p>
+                        <p class="when">Grade 11–12 · 2023 – 2025</p>
+                    </div>
+                </section>
+
+                <footer>
+                    <p>// &copy; <span id="year">2026</span> Prince Ram Roydlikent F. Igna</p>
+                </footer>
+            </div>
+        </main>
+
+        <script src="../js/script.js"></script>
 </body>
 </html>
-
