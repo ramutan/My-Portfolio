@@ -63,3 +63,22 @@
             const href = link.getAttribute("href");
             if (href === here) link.setAttribute("aria-current", "page");
         });
+
+        /* ---------- Footer year ---------- */
+        const year = document.getElementById("year");
+        if (year) year.textContent = new Date().getFullYear();
+
+        /* ---------- Copy email button ---------- */
+        const copyBtn = document.getElementById("copy-email");
+        if (copyBtn) {
+            const status = document.getElementById("copy-status");
+            const emailEl = document.getElementById("email-link");
+            copyBtn.addEventListener("click", async () => {
+                if (!emailEl) return;
+                const email = emailEl.textContent.trim();
+                try {
+                    await navigator.clipboard.writeText(email);
+                    if (status) {
+                        status.textContent = "copied to clipboard";
+                        status.style.color = "var(--accent)";
+                    }
