@@ -47,3 +47,19 @@
             toggleTheme();
         }
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        /* ---------- Theme toggle button ---------- */
+        const toggle = document.querySelector(".theme-toggle");
+        if (toggle) {
+            toggle.addEventListener("click", toggleTheme);
+            toggle.setAttribute("aria-label",
+                currentTheme() === "dark" ? "Switch to light theme" : "Switch to dark theme");
+        }
+
+        /* ---------- Active nav link (path-based, for multi-page) ---------- */
+        const here = (location.pathname.split("/").pop() || "index.html");
+        document.querySelectorAll(".nav-links a").forEach((link) => {
+            const href = link.getAttribute("href");
+            if (href === here) link.setAttribute("aria-current", "page");
+        });
