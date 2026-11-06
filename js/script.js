@@ -27,3 +27,23 @@
         }
     }
 
+     function toggleTheme() {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        applyTheme(next);
+        storeTheme(next);
+    }
+
+    // React to system preference change IF the user hasn't manually chosen
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        if (!getStoredTheme()) {
+            applyTheme(e.matches ? "dark" : "light");
+        }
+    });
+
+    // Alt+K / Alt+J keyboard shortcut to toggle theme (Bryl-style)
+    document.addEventListener("keydown", (e) => {
+        if (e.altKey && (e.key === "k" || e.key === "K" || e.key === "j" || e.key === "J")) {
+            e.preventDefault();
+            toggleTheme();
+        }
+    });
